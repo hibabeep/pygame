@@ -235,7 +235,7 @@ def stealing():
                 fenetre.blit(surfacegagnee,(120,100))
                 pygame.display.flip()
                 pygame.time.delay(2000)
-                dotransition(homescreen)
+                dotransition(diffscreen)
                 break
     if positionthief.colliderect(positionpolice):
         gameover = True
@@ -247,7 +247,7 @@ def stealing():
         fenetre.blit(surfaceperduu,(120,100))
         pygame.display.flip()
         pygame.time.delay(2000)
-        dotransition(homescreen)
+        dotransition(diffscreen)
     
 def fade(width, height): 
     fade = pygame.Surface((width,height))
